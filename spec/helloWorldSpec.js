@@ -20,18 +20,12 @@ describe("Hello World Server", function() {
     //        });
     //    });
 
-        var server;
-        beforeAll(() => {
-            server = require("../app/hello_world");
-
-        })
+        
         
         // it("returns Hello World", function() {
         //         expect(body).toBe("Hllo World");
         // });
-        afterAll(() => {
-            server.close();
-        }
+        
     });
     
     describe("GET /jasmine", () => {
